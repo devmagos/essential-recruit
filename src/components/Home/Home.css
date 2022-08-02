@@ -1,0 +1,118 @@
+.navbar {
+    background: #fff;
+}
+
+.companies-bar {
+    width: 1440px;
+    height: 9em;
+    margin: 0 auto;
+    background-color: #F5FAF7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 100px auto;
+    height: 1.2em;
+}
+
+.mission-statement {
+    width: 1440px;
+    height: 6em;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    background-color: #fff;
+}
+
+.set-apart {
+    margin: 20px auto;
+}
+
+.connections {
+    margin: 20px auto;
+}
+
+.card-section {
+    margin: 108px;
+    display: flex;
+    background: #fff;
+}
+
+.cards {
+    width: 371px;
+    margin: 20px;
+    height: 359px;
+    border: 0.5px solid #000;
+    color: #000;
+    background: #fff;
+}
+
+.applicants {
+    height: 500px;
+    padding: 10px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+}
+
+.applicants-text {
+    font-size: large;
+    text-align: justify;
+    padding-left: 50px;
+    margin-left: 100px;
+}
+
+.applicants-logo {
+    margin: 1% auto;
+}
+
+.recruiters {
+    height: 500px;
+    padding: 50px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+}
+
+.recruiters-text {
+    font-size: large;
+    text-align: justify;
+    padding-left: 50px;
+    margin-left: 100px;
+}
+.recruiters-logo {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.logo-recruiters {
+    height: 400px;
+}
+
+.testimony-solutions {
+    color: #000;
+    background-color: #fff;
+}
+.testimonials {
+    margin: 30px auto;
+    background: #fff;
+}
+
+.testimonial-logo {
+    display: flex;
+    width: 150px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.logo-testimonial {
+    height: 30px;
+}
+.solutions {
+
+}
