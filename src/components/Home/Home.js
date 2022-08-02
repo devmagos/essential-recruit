@@ -113,6 +113,7 @@ function Home() {
                     services including<br/> finding accomodation, airport pickup,
                     etc.
                     </p>
+                    <button className='applicants-btn'>Find a job</button>                    
                 </div>
                 <div className="applicants-logo">
                     <img src={man} className="smiling-man" alt="background logo"/>
@@ -162,6 +163,7 @@ function Home() {
                     so we take care of setting them up for<br/> success in their new community so that 
                     you can focus on what matters most-providing quality healthcare for all of us!
                     </p>
+                    <button className='recruiters-btn'>Discover Talent</button> 
                 </div>
             </div>
             <div className="testimony-solutions">

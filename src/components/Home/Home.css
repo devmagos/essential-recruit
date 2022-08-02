@@ -80,6 +80,7 @@ body {
     background: #fff;
     color: #000;
     display: flex;
+    margin: 40px;
     justify-content: space-around;
 }
 
@@ -94,8 +95,17 @@ body {
     margin: 1% auto;
 }
 
+.applicants-btn {
+    background-color: #38B6FF;
+    color: #fff;
+    padding: 15px;
+    border: none;
+}
+
+
 .recruiters {
     height: 600px;
+    margin: 40px;
     padding: 50px;
     background-color: #fff;
     color: #000;
@@ -114,19 +124,31 @@ body {
 }
 
 .logo-recruiters {
-    height: 450px;
+    margin-top: 50px;
+    height: 400px;
+}
+
+.recruiters-btn {
+    background-color: #38B6FF;
+    color: #fff;
+    padding: 15px;
+    border: none;
 }
 
 .testimony-solutions {
     color: #000;
+    padding: 20px;
+    font-size: medium;
     background-color: #fff;
 }
 
 .solutions {
+    margin: 40px;
     background-color: #fff;
 }
 .testimonials {
     background: #fff;
+    font-size: medium;
 }
 
 .testimonial-logo {
@@ -148,6 +170,7 @@ body {
 .questions {
     color: #000;
     padding: 20px;
+    font-size: medium;
 }
 
 .questions-btn {
