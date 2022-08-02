@@ -18,6 +18,9 @@ import instagram from '../Images/instagram.png'
 import twitter from '../Images/twitter.png'
 import facebook from '../Images/facebook.png'
 import linkedin from '../Images/linkedin.png'
+import flash from '../Images/flash.png'
+// import flash from '../Images/flash.png'
+import arrow from '../Images/arrow.png'
 // import quidax from '../Images/quidax.png'
 
 function Home() {
@@ -44,6 +47,7 @@ function Home() {
             </div>
             <div className="card-section">
                 <div className="cards">
+                    <img src={flash} className="cards-logo" alt="decagon logo"/>
                     <h4>Connections</h4>
                     <p>
                     Whether you’re an employer searching for your ideal candidate, or a 
@@ -52,6 +56,7 @@ function Home() {
                     </p>
                 </div>
                 <div className="cards">
+                     <img src={flash} className="cards-logo" alt="decagon logo"/>
                     <h4>Immigration</h4>
                     <p>
                     Our experienced immigration consultants help you put together the right 
@@ -60,6 +65,7 @@ function Home() {
                     </p>
                 </div>
                 <div className="cards">
+                    <img src={arrow} className="cards-logo" alt="decagon logo"/>
                     <h4>Settlement</h4>
                     <p>
                     Job connections and immigration are just the start, we have curated services 

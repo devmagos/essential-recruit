@@ -46,6 +46,8 @@ body {
 
 .card-section {
     display: flex;
+    margin: 30px;
+    justify-content: center;
     background-color: #fff;
 }
 
@@ -53,9 +55,23 @@ body {
     width: 371px;
     margin: 20px;
     height: 359px;
-    border: 0.5px solid #000;
+    border: none;
     color: #000;
+    padding: 10px;
+    line-height: 35px;
+    font-size: medium;
+    text-align: justify;
     background: #fff;
+    box-shadow: -1px 11px 25px 0px rgba(153,142,142,0.93);
+    -webkit-box-shadow: -1px 11px 25px 0px rgba(153,142,142,0.93);
+    -moz-box-shadow: -1px 11px 25px 0px rgba(153,142,142,0.93);
+}
+
+.cards-logo {
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 0.5px solid grey;
 }
 
 .applicants {
