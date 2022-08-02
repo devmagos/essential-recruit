@@ -162,7 +162,7 @@ function Home() {
             </div>
             <div className="testimonials">
             <p>
-                You’re tuned to Dawn FM, the middle of nowhere on your dial. So sit back<br/> and unpack, you 
+            &#x201C; You’re tuned to Dawn FM, the middle of nowhere on your dial. So sit back &#x201C;<br/> and unpack, you 
             might be here a while. Now that all future plans have been<br/> postponed and it’s time to look 
             back on the things you thought you owned.
             </p>
