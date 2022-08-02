@@ -115,15 +115,56 @@ body {
 
 .testimonial-logo {
     display: flex;
-    width: 150px;
+    width: 100px;
     margin: 0 auto;
     justify-content: space-around;
 }
 
-.logo-testimonial {
-    height: 30px;
+.logo-testimonials {
+    height: 50px;
+    margin: 10px;
 }
 
 .abdel-text {
     color: #000;
+}
+
+.questions {
+    color: #000;
+    padding: 20px;
+}
+
+.questions-btn {
+    background-color: #38B6FF;
+    color: #fff;
+    padding: 15px;
+    border: none;
+}
+
+.footer {
+    background: #133D55;
+}
+
+.footer-top {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.footer-icons {
+    width: 300px;
+}
+
+.contactus {
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+    width: 600px;
+}
+
+.contactus-copyright {
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+    margin: 20px;
 }

@@ -14,6 +14,10 @@ import rasheed from '../Images/rasheed.png'
 import moe from '../Images/moe.png'
 import umeira from '../Images/umeira.png'
 import ursula from '../Images/ursula.png'
+import instagram from '../Images/instagram.png'
+import twitter from '../Images/twitter.png'
+import facebook from '../Images/facebook.png'
+import linkedin from '../Images/linkedin.png'
 // import quidax from '../Images/quidax.png'
 
 function Home() {
@@ -178,8 +182,49 @@ function Home() {
             </div>
             </div> 
             </div>
-            {/* <div>Questions</div> */}
-            {/* <div>Foooter</div> */}
+
+            <div className='questions'>
+                <h3>Still got questions?</h3>
+                <p>Leave us a message and we will be in touch.</p>
+                <button className='questions-btn'>Contact Us</button>
+            </div>
+
+            <div className='footer'>
+                <div className='footer-top'>
+                <div className='footer-icons'>
+                    <p>essentialrecruit</p>
+                    <img src={instagram} className="logo-icons" alt="background logo"/>
+                    <img src={twitter} className="logo-icons" alt="background logo"/>
+                    <img src={linkedin} className="logo-icons" alt="background logo"/>
+                    <img src={facebook} className="logo-icons" alt="background logo"/>
+                </div>
+
+                <div className='contactus'>
+                <div className='company'>
+                    <h5>Company</h5>
+                    <p>About us</p>
+                    <h6>FAQs</h6>
+                </div>
+                <div className='legal'>
+                    <h5>Legal</h5>
+                    <p>Terms & Conditions</p>
+                    <h6>Privacy Policy</h6>
+                </div>
+                <div className='contact'>
+                    <h5>Contact</h5>
+                    <p>hello@essentialrecruit.careers</p>
+                    <p>+1 (782) 529-6483</p>
+                    <p>
+                    12 Dawson Street, Dartmouth, NS,<br /> 
+                    Canada. B3A 3A7
+                    </p>
+                </div>
+                </div>
+                </div>
+                <div className='contactus-copyright'>
+                    <p>Copyright 2022 Essential Recruit. All rights reserved.</p>
+                </div>
+            </div>
         </div>
     )
 }
