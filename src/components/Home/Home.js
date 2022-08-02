@@ -193,10 +193,10 @@ function Home() {
                 <div className='footer-top'>
                 <div className='footer-icons'>
                     <p>essentialrecruit</p>
-                    <img src={instagram} className="logo-icons" alt="background logo"/>
-                    <img src={twitter} className="logo-icons" alt="background logo"/>
-                    <img src={linkedin} className="logo-icons" alt="background logo"/>
-                    <img src={facebook} className="logo-icons" alt="background logo"/>
+                    <img src={instagram} className="footer-icons-logo" alt="background logo"/>
+                    <img src={twitter} className="footer-icons-logo" alt="background logo"/>
+                    <img src={linkedin} className="footer-icons-logo" alt="background logo"/>
+                    <img src={facebook} className="footer-icons-logo" alt="background logo"/>
                 </div>
 
                 <div className='contactus'>

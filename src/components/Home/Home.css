@@ -155,11 +155,21 @@ body {
     width: 300px;
 }
 
+.footer-icons-logo {
+    padding: 5px;
+    width: 35px;
+}
+
 .contactus {
     display: flex;
+    text-align: justify;
     justify-content: space-around;
     font-size: small;
     width: 600px;
+}
+
+.contact {
+    
 }
 
 .contactus-copyright {
