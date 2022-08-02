@@ -1,5 +1,13 @@
+body {
+    background-color: #fff;
+  }
+
 .navbar {
     background: #fff;
+}
+
+.logo-background {
+    background-color: #fff;
 }
 
 .companies-bar {
@@ -29,6 +37,7 @@
 
 .set-apart {
     margin: 20px auto;
+    background-color: #fff;
 }
 
 .connections {
@@ -36,9 +45,8 @@
 }
 
 .card-section {
-    margin: 108px;
     display: flex;
-    background: #fff;
+    background-color: #fff;
 }
 
 .cards {
@@ -71,9 +79,9 @@
 }
 
 .recruiters {
-    height: 500px;
+    height: 600px;
     padding: 50px;
-    background: #fff;
+    background-color: #fff;
     color: #000;
     display: flex;
     justify-content: space-around;
@@ -86,20 +94,22 @@
     margin-left: 100px;
 }
 .recruiters-logo {
-    margin-top: 100px;
-    margin-left: 100px;
+    margin: 100px;
 }
 
 .logo-recruiters {
-    height: 400px;
+    height: 450px;
 }
 
 .testimony-solutions {
     color: #000;
     background-color: #fff;
 }
+
+.solutions {
+    background-color: #fff;
+}
 .testimonials {
-    margin: 30px auto;
     background: #fff;
 }
 
@@ -113,6 +123,7 @@
 .logo-testimonial {
     height: 30px;
 }
-.solutions {
 
+.abdel-text {
+    color: #000;
 }

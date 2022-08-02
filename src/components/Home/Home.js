@@ -20,7 +20,7 @@ function Home() {
     return (
         <div>
             <div className="navbar">Navbar</div>
-            <div>
+            <div className="logo-background">
             <img src={background} alt="background logo"/>
             </div>
             <div className="companies-bar">
@@ -113,7 +113,6 @@ function Home() {
                 <div className="recruiters-logo">
                 <img src={handshake} className="logo-recruiters" alt="background logo"/>
                 </div>
-                <div>
                 <div className="recruiters-text">
                     <h3>
                     Get connected to pre-vetted talents in months minutes
@@ -154,21 +153,20 @@ function Home() {
                     you can focus on what matters most-providing quality healthcare for all of us!
                     </p>
                 </div>
-                </div>
             </div>
-            {/* <div className="testimony-solutions"> */}
-            {/* <div className="solutions">
+            <div className="testimony-solutions">
+            <div className="solutions">
                 <h3>
                 Delivering solutions that result in happy users!
                 </h3>
-            </div> */}
+            </div>
             <div className="testimonials">
             <p>
                 You’re tuned to Dawn FM, the middle of nowhere on your dial. So sit back<br/> and unpack, you 
             might be here a while. Now that all future plans have been<br/> postponed and it’s time to look 
             back on the things you thought you owned.
             </p>
-            <div>
+            <div className='abdel-text'>
                 <p>-Abel Tesfaye</p>
             </div>
             <div className="testimonial-logo">
@@ -177,9 +175,8 @@ function Home() {
             <img src={rasheed} className="logo-testimonials" alt="background logo"/>
             <img src={umeira} className="logo-testimonials" alt="background logo"/>
             <img src={ursula} className="logo-testimonials" alt="background logo"/>
-
             </div>
-            {/* </div> */}
+            </div> 
             </div>
             {/* <div>Questions</div> */}
             {/* <div>Foooter</div> */}
