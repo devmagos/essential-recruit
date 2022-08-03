@@ -1,0 +1,13 @@
+.user-profile {
+    background: skyblue; 
+    color: #fff;
+    height: 650px;
+    width: 100%;
+}
+
+h1 {
+    margin: 30% auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

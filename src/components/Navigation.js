@@ -35,7 +35,7 @@ function Navigation() {
 							<Link to='/Setupaccttl/Setupaccttl.js' className='pages'>
 							Setup account timeline
 							</Link>
-							<Link to='/User/User.js' className='pages'>
+							<Link to='/User/Profile.js' className='pages'>
 								User
 							</Link>
 						</div>
@@ -68,7 +68,7 @@ function Navigation() {
 								element={<Setupaccttl />}
 							/>
 							<Route
-								path='/User/User.js'
+								path='/User/Profile.js'
 								element={<User />}
 							/>
 						</Routes>
