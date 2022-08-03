@@ -1,0 +1,140 @@
+.setupaccttl {
+    border:  0.2px solid grey;
+    color: #fff;
+    display: flex;
+    width: 700px;
+    height: 550px;
+}
+
+.setupaccttl-text {
+    background-color: skyblue;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    line-height: normal;
+    font-size: small;
+    width: 300px;
+    height: 550px;
+}
+
+.setupaccttl-text-m {
+    margin: 80% auto;
+    padding: 20px;
+    font-size: medium;
+    line-height: 40px;
+}
+
+.contact {
+    font-size: large;
+    text-align: justify;
+    color: #000;
+    margin: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form-text {
+    display: flex;
+    font-size: small;
+}
+
+.form-text p {
+    font-size: small;
+}
+
+.form-airplane {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+}
+
+.form-airplane-img {
+    margin: 0;
+}
+
+.progressbar {
+    margin-right: 0;
+    height: 2px;
+}
+
+hr {
+    width: 350px;
+}
+
+.setupaccttl-form, .setupaccttl-form .contact, .setupaccttl-form .form {
+    color: #000;
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.setupaccttl-form {
+    padding: 10px;
+    margin: 30px;
+    width: 400px;
+}
+
+.form-btn {
+    display: flex;
+    margin: 10px;
+}
+
+.form-textr {
+    color: skyblue;
+}
+
+.btn-setupaccttl {
+    padding: 12px;
+    width: 50px;
+    margin: 10px;
+    font-size: small;
+    background: #F5FAF7;
+    color: #AAAAAA;
+    border:  0.2px solid grey;
+}
+
+.btn-setupacctn {
+    color: skyblue;
+}
+
+.btn-setupaccty {
+    background: skyblue;
+    color: #fff;
+}
+
+.setupaccttl-onboard {
+    text-align: center;
+}
+
+.setupaccttl-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-timeline {
+    padding: 10px;
+    width: 80px;
+    margin: 10px;
+    color: skyblue;
+    font-size: small;
+    background: #F5FAF7;
+    border:  0.2px solid grey;
+}
+
+.btn-timeline-p {
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+    color: skyblue;
+    font-size: small;
+    background: #F5FAF7;
+    border:  0.2px solid grey;
+}

@@ -1,25 +1,27 @@
-.contactus {
-    border:  0.5px solid grey;
+.createacct {
+    border:  0.2px solid grey;
     color: #fff;
     display: flex;
     width: 700px;
     height: 550px;
 }
 
-.contactus-text {
+.createacct-text {
     background-color: skyblue;
     justify-content: center;
     text-align: justify;
     align-items: center;
     line-height: normal;
     font-size: small;
-    width: 270px;
+    width: 300px;
     height: 550px;
 }
 
-.contactus-text-m {
+.createacct-text-m {
     margin: 80% auto;
-    padding: 10px;
+    padding: 20px;
+    font-size: large;
+    line-height: 40px;
 }
 
 .contact {
@@ -35,17 +37,28 @@
     padding: 20px;
 }
 
-.form-inputs {
-    padding: 15px;
-    margin: 10px;
-    width: 250px;
+.createacct-form, .createacct-form .contact, .createacct-form .form {
+    color: #000;
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-.btn-contactus {
-    margin: 10px;
+.form-inputs {
     padding: 10px;
+    margin: 30px;
+    width: 300px;
+    border:  0.2px solid grey;
+}
+
+.btn-createacct {
+    padding: 12px;
+    width: 200px;
     background: #F5FAF7;
     color: #AAAAAA;
+    border:  0.2px solid grey;
 }
 
 i {

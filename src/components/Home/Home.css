@@ -199,7 +199,7 @@ body {
     width: 35px;
 }
 
-.contactus {
+.contactusf {
     display: flex;
     text-align: justify;
     justify-content: space-around;
@@ -207,8 +207,10 @@ body {
     width: 600px;
 }
 
-.contact {
-    
+.contactusf .contact {
+    text-align: justify;
+    font-size: small;
+    color: #fff;
 }
 
 .contactus-copyright {

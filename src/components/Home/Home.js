@@ -22,11 +22,11 @@ import flash from '../Images/flash.png'
 // import flash from '../Images/flash.png'
 import arrow from '../Images/arrow.png'
 // import quidax from '../Images/quidax.png'
+// import Createaccount from '../Createaccount/Createaccount.js'
 
 function Home() {
     return (
         <div>
-            <div className="navbar">Navbar</div>
             <div className="logo-background">
             <img src={background} alt="background logo"/>
             </div>
@@ -207,7 +207,7 @@ function Home() {
                     <img src={facebook} className="footer-icons-logo" alt="background logo"/>
                 </div>
 
-                <div className='contactus'>
+                <div className='contactusf'>
                 <div className='company'>
                     <h5>Company</h5>
                     <p>About us</p>

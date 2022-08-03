@@ -1,0 +1,93 @@
+.setupacct {
+    border:  0.2px solid grey;
+    color: #fff;
+    display: flex;
+    width: 700px;
+    height: 550px;
+}
+
+.setupacct-text {
+    background-color: skyblue;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    line-height: normal;
+    font-size: small;
+    width: 300px;
+    height: 550px;
+}
+
+.setupacct-text-m {
+    margin: 80% auto;
+    padding: 20px;
+    font-size: medium;
+    line-height: 40px;
+}
+
+.contact {
+    font-size: large;
+    text-align: justify;
+    color: #000;
+    margin: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form-text {
+    display: flex;
+    font-size: small;
+}
+
+.form-text p {
+    font-size: small;
+}
+
+.form-airplane {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+}
+
+.form-airplane-img {
+    margin: 0;
+}
+
+hr {
+    width: 350px;
+}
+
+.setupacct-form, .setupacct-form .contact, .setupacct-form .form {
+    color: #000;
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-inputs {
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+    border:  0.2px solid grey;
+}
+
+.form-btn {
+    display: flex;
+    margin: 10px;
+}
+
+.btn-setupacct {
+    padding: 12px;
+    width: 50px;
+    margin: 10px;
+    font-size: small;
+    background: #F5FAF7;
+    color: #AAAAAA;
+    border:  0.2px solid grey;
+}
